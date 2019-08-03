@@ -1,0 +1,6 @@
+{
+    "code-runner.executorMap": {
+        "c": "make run input=src/$fileName",
+        "cpp": "make run input=src/$fileName"
+    }
+}
