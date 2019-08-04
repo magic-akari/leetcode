@@ -2,5 +2,8 @@
     "code-runner.executorMap": {
         "c": "make run input=src/$fileName",
         "cpp": "make run input=src/$fileName"
+    },
+    "go.toolsEnvVars": {
+        "CGO_ENABLED": 0
     }
 }
