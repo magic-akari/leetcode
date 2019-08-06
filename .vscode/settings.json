@@ -2,7 +2,8 @@
     "code-runner.executorMap": {
         "c": "make run input=src/$fileName",
         "cpp": "make run input=src/$fileName",
-        "java": "javac src/structs/*.java; java -cp src src/$fileName"
+        "java": "javac src/structs/*.java; java -cp src src/$fileName",
+        "javascript": "node --experimental-modules"
     },
     "go.toolsEnvVars": {
         "CGO_ENABLED": 0
