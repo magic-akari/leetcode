@@ -3,9 +3,12 @@
         "c": "make run input=src/$fileName",
         "cpp": "make run input=src/$fileName",
         "java": "javac src/structs/*.java; java -cp src src/$fileName",
-        "javascript": "node --experimental-modules"
+        "javascript": "node --experimental-modules",
+        "python": "source .venv/bin/activate; python"
     },
     "go.toolsEnvVars": {
         "CGO_ENABLED": 0
-    }
+    },
+    "python.pythonPath": ".venv/bin/python",
+    "python.formatting.provider": "yapf"
 }
