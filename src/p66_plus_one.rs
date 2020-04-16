@@ -18,6 +18,7 @@ impl Solution {
                 carry = 1;
             } else {
                 carry = 0;
+                break;
             }
         }
 
