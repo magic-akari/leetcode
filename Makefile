@@ -10,7 +10,7 @@ ifeq ($(suffix $(input)), .c)
 	args := -std=c11
 else
 	cc := clang++
-	args := -std=c++17 -stdlib=libc++
+	args := -std=c++17 -Wall -Wextra -Wpedantic -stdlib=libc++
 endif
 
 $(output): $(dependences)
