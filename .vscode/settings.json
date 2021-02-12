@@ -89,6 +89,7 @@
         "boost-*",
         "cert-*",
         "cppcoreguidelines-*",
+        "-cppcoreguidelines-avoid-magic-numbers",
         "google-default-arguments",
         "google-explicit-constructor",
         "google-runtime-operator",
@@ -108,6 +109,7 @@
         "performance-*",
         "portability-*",
         "readability-*",
-        "-readability-convert-member-functions-to-static"
+        "-readability-convert-member-functions-to-static",
+        "-readability-magic-numbers"
     ]
 }
